@@ -1,0 +1,147 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "binaryplease: i3-save-tree > lay.json",
+            "percent": 1,
+            "swallows": [
+               {
+                   "title": "xterm1"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "~",
+            "percent": 0.5,
+            "swallows": [
+               {
+                   "title" : "xterm2"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            // splitv split container with 4 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 434,
+                       "width": 722,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "~",
+                    "percent": 0.25,
+                    "swallows": [
+                       {
+                           "title" : "xterm3"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 434,
+                       "width": 722,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "~",
+                    "percent": 0.25,
+                    "swallows": [
+                       {
+                           "title" : "xterm4"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 434,
+                       "width": 722,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "~",
+                    "percent": 0.25,
+                    "swallows": [
+                       {
+                           "title" : "xterm5"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 434,
+                       "width": 722,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "~",
+                    "percent": 0.25,
+                    "swallows": [
+                       {
+                           "title" : "xterm6"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
